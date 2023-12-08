@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Pokedex</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="CSS/style.css">
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<div id="pokedexItems">
+			<img src="pokedex.png" class="pokedex">
+			<form class="form">
+				<input type="text" id="pokId" placeholder="Insira o id do pokemon">
+			</form>
+			<div id="btns">
+				<button id="btn" onclick="showPokemonById()">Buscar</button>
+			</div>
+			<img id="pokemonGif">
+			<h1 id="pokemon_info">
+				<span id="idPokemon"></span>
+				<span id="nomePokemon"></span>
+			</h1>
+		</div>
+	</body>
+</html>

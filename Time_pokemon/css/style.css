@@ -1,0 +1,29 @@
+#listaPokemon{
+    font-family: arial;
+    font-size: 20px;
+    list-style: none;
+    color: white;
+}
+
+body{
+    background-color: rgb(43, 41, 41);
+}
+
+h1{
+    font-family: arial;
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 60px;
+}
+
+h3{
+    font-family: arial;
+    margin: 30px;
+    color: white;
+}
+
+.login{
+    display: flex;
+   
+}
+

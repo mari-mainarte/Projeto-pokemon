@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>JS</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="CSS/style.css">
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<input type="number" placeholder="ID" id="input">
+		<a href="#pok_modal" onclick="showModalInput()"><button class="btn2">Buscar</button></a>
+		<div id="uls">
+			<ul id="pokedexList"></ul>
+			<ul id="capturados">
+				<h1>Seu time:</h1>
+			</ul>
+		</div>
+		<div id="pok_modal" class="modal">
+			<div class="modal_img">
+				<a class="close_modal" title="Fechar" href="index.html#">X</a>
+				<div id="modal"></div>
+				<div id="info">
+					<span id="nomePokemon"></span>
+					<span id="idPokemon"></span>
+					<button onclick="capturarPokemonsInput()" class="btn">Capturar</button>
+				</div>
+				<div id="teste">
+					<img id="pokGif">
+					<div id="info2">
+						<div id="a_p">
+							<span id="alturaPokemon"></span>
+							<span id="pesoPokemon"></span>
+						</div>
+						<h4 id="type"></h4>
+					</div>
+				</div>
+				<h5 id="text"></h5>
+			</div>
+		</div>
+	</body>
+</html>

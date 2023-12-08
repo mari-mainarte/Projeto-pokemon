@@ -1,0 +1,137 @@
+#listaPokemon{
+    font-family: arial;
+    font-size: 20px;
+    list-style: none;
+    color: white;
+}
+
+#btns{
+    position: absolute;
+    bottom: 24%;
+    left: 52%;
+    width: 45%;
+    transform: translate(-57%, 0);
+}
+
+#btn{
+    width: 15%;
+    padding: 1%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 600;
+    color: white;
+    background-color: #444;
+    margin-top: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', cursive;
+}
+
+#pokemonGif{
+    position: absolute;
+    bottom: 52%;
+    left: 51%;
+    transform: translate(-63%, 20%);
+    height: 15%;
+}
+
+#pokedexItems{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#pokemon_info{
+    position: absolute;
+    font-weight: 600;
+    color:black;
+    top: 51.5%;
+    right: 44%;
+    font-size: clamp(8px, 5vw, 25px);
+}
+
+#pokId{
+    width: 20%;
+    padding: 1%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 7px;
+    font-weight: 600;
+    color: #333;
+    font-size: clamp(8px, 5vw, 1rem);
+    margin-top: 85px;
+}
+
+body{
+    background-color:#84d2ff;
+    text-align: center;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+}
+
+h3{
+    font-family: arial;
+    margin: 30px;
+    color: white;
+}
+
+.pokedex{
+    display: inline-block;
+    margin-top: 6%;
+    padding: 15px;
+    position: relative;
+    height: 110%;
+    margin-bottom: 1%;
+}
+
+
+.login{
+    display: flex;
+   
+}
+
+.form{
+    position: absolute;
+    width: 60%;
+    top: 53%;
+    left: 19%;
+}
+
+img{
+    margin-bottom: 40px;
+    overflow: clip;
+}
+
+form{
+    display: block;
+    margin-top: 0em;
+}
+
+.nomePokemon{
+    color: #3a444d;
+    text-transform: capitalize;
+    right: 40%;
+}
+
+.numberPokemon{
+    position: absolute;
+    font-weight: 600;
+    color: black;
+    top: 0.5%;
+    right: 110%;
+    font-size: clamp(8px, 5vw, 25px);
+}
