@@ -7,8 +7,6 @@
 		<script src="js/script.js"></script>
 	</head>
 	<body>
-		<input type="number" placeholder="ID" id="input">
-		<a href="#pok_modal" onclick="showModalInput()"><button class="btn2">Buscar</button></a>
 		<div id="uls">
 			<ul id="pokedexList"></ul>
 			<ul id="capturados">
@@ -17,12 +15,12 @@
 		</div>
 		<div id="pok_modal" class="modal">
 			<div class="modal_img">
-				<a class="close_modal" title="Fechar" href="index.html#">X</a>
+				<button class="close_modal" onclick="closeModal()">X</button>
 				<div id="modal"></div>
 				<div id="info">
 					<span id="nomePokemon"></span>
 					<span id="idPokemon"></span>
-					<button onclick="capturarPokemonsInput()" class="btn">Capturar</button>
+					<button class="btn">Capturar<img src="pokebola.png" id="pokball"></button>
 				</div>
 				<div id="teste">
 					<img id="pokGif">
@@ -38,4 +36,3 @@
 			</div>
 		</div>
 	</body>
-</html>
