@@ -1,2 +1,2 @@
 # Projeto-pokemon
-Projeto da API de Pokemons da disciplina PW1-2023
+Projetos da API de Pokemons da disciplina PW1-2023
