@@ -110,7 +110,7 @@ function capturarPokemon(){
             let pokName = document.createElement("h5")
             response.json().then( async (api) => {
                 if(cont >= 6){
-                    alert("Voçê já tem o time completo!")
+                    alert("Você já tem o time completo!")
                 }else{
                     await fetch(api['results'][capturar.value-1]['url']).then( response => {
                         response.json().then( pokInfo => {
