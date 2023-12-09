@@ -11,6 +11,7 @@
 			<ul id="pokedexList"></ul>
 			<ul id="capturados">
 				<h1>Seu time:</h1>
+				<button onclick="limparTime()" id="btn3">Soltar primeiro pokemon</button>
 			</ul>
 		</div>
 		<div id="pok_modal" class="modal">
@@ -20,7 +21,7 @@
 				<div id="info">
 					<span id="nomePokemon"></span>
 					<span id="idPokemon"></span>
-					<button class="btn">Capturar<img src="pokebola.png" id="pokball"></button>
+					<button id="btn" onclick="capturarPokemon()">Capturar<img src="pokebola.png" id="pokball"></button>
 				</div>
 				<div id="teste">
 					<img id="pokGif">
